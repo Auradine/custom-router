@@ -1,6 +1,6 @@
-import Router from './router'
-import RouteResolver from './route_resolver'
+import Router from './router.js'
+import RouteResolver from './route_resolver.js'
 
-export default function router (requestParser, routeResolver = new RouteResolver()) {
+export default function router(requestParser, routeResolver = new RouteResolver()) {
   return new Router(requestParser, routeResolver)
 }

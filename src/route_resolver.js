@@ -1,7 +1,8 @@
+import Route from './route.js'
 import RouteMatcher from 'route-parser'
 
 export default class RouteResolver {
-  constructor () {
+  constructor() {
     this.cache = {}
   }
 
